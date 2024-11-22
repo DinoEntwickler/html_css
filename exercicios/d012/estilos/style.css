@@ -1,27 +1,45 @@
 @charset "UTF-8";
+@font-face {
+    
+    font-family: Sriracha;
+    src:url(../fontes/Sriracha/Sriracha-Regular.ttf) format(truetype) ;
+}
+@font-face {
+    font-family: Doto;
+    src: url(../fontes/Pacifico/Pacifico-Regular.ttf) format(truetype);
+}
+
+
+
 *{
     margin:0px;
     padding:0px;
+    
 }
 
 html,body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header>h1{
     padding-top:50px;
     font-variant: small-caps;
+    font-family: Doto;
 
 }
 
 header>p{
     padding-bottom: 50px;
+    
+
 
 
 }
@@ -43,6 +61,7 @@ padding-top: 10vh;
 padding-bottom: 10vh;
 line-height: 2em;
 padding-left: 30px;
+font-family: Sriracha;
 
 
 }
