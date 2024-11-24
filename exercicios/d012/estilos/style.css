@@ -9,18 +9,28 @@
     src: url(../fontes/Pacifico/Pacifico-Regular.ttf) format(truetype);
 }
 
+:root{
+
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: Doto;
+    --font3: Sriracha;
+
+
+
+}
 
 
 *{
     margin:0px;
     padding:0px;
+    font-size: 1em;
     
 }
 
 html,body{
     min-height: 100vh;
     background-color: darkgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:var(--font1);
 }
 header{
     background-color: black;
@@ -32,7 +42,8 @@ header{
 header>h1{
     padding-top:50px;
     font-variant: small-caps;
-    font-family: Doto;
+    font-family: var(--font2);
+    font-size: 3vw; 
 
 }
 
@@ -61,7 +72,8 @@ padding-top: 10vh;
 padding-bottom: 10vh;
 line-height: 2em;
 padding-left: 30px;
-font-family: Sriracha;
+font-family: var(--font3);
+font-size: 3vw;
 
 
 }
@@ -81,7 +93,8 @@ section.imagem {
 
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
     
 
