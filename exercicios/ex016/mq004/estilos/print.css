@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/icon-print.png);
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color:black;
+
+
+    }
+
+    main::after{
+        content: "Essa impressao foi feita atraves do site www.cursoemvideo.com";
+
+    }
+
